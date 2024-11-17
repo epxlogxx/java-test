@@ -1,0 +1,12 @@
+name: test
+version: '${version}'
+main: test.test.Test
+api-version: '1.16'
+prefix: HelloTest
+load: STARTUP
+authors: [ epxlogxx and lisomandiy ]
+description: вангог жанклод
+commands:
+  hello:
+    description: test plugin hello /hello
+    usage: /hello
